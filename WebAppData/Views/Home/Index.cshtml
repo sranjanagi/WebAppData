@@ -1,0 +1,44 @@
+﻿
+@model WebAppData.Models.Employee    
+       
+@{    
+  ViewData["Title"] = "Index";    
+}    
+<h2>Index</h2>    
+<p>    
+  <a asp-action="Create">Create New</a>    
+</p>    
+<ul><li>
+  
+  id:@Model.id;
+  
+
+</li><li>
+
+  Name:@Model.Name;
+
+
+
+
+</li><li>
+
+  salary:@Model.Salary;
+
+
+
+
+</li><li>
+
+  gender:@Model.Gender;
+
+
+
+
+</li><li>
+
+  departId:@Model.DepartmentId;
+
+
+
+
+</li></ul>
